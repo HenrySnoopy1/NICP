@@ -30,7 +30,7 @@ jobs:
     - name: Build with Maven
       run: mvn -B test
 
-  snky:
+  snyk:
     needs: needs
     runs-on: ubuntu-latest
     steps:
