@@ -31,7 +31,7 @@ jobs:
       run: mvn -B test
 
   snyk:
-    needs: needs
+    needs: build
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
